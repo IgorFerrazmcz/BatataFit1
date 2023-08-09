@@ -24,14 +24,16 @@ header {
 header img {
     justify-self: center;
     max-width: 150px;
+    padding: 15px;
 }
 header nav .Navegação {
     display: flex;
     gap: 20px;
+    padding: 10px;
 }
 
 .Navegação li a {
-    padding: 10px;
+    padding: 20px;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 600;
     font-family: 'Montserrat';
@@ -47,8 +49,13 @@ header nav .Navegação {
     padding: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    background: linear-gradient(90deg, #701414, #cf2e2e 45%, #cf2e2e 48%, #d96410 50%);
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .conteudo img {
-    max-width: 100%;
+    max-width: 70%;
 }
