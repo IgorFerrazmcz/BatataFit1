@@ -23,7 +23,7 @@ header {
 
 header img {
     justify-self: center;
-    max-width: 150px;
+    max-width: 200px;
     padding: 15px;
 }
 header nav .Navegação {
@@ -52,7 +52,7 @@ header nav .Navegação {
     background: linear-gradient(90deg, #701414, #cf2e2e 45%, #cf2e2e 48%, #d96410 50%);
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #c9c9c9;
+    border-bottom: 2px solid #c9c9c94d;
 
 
 }
@@ -82,7 +82,7 @@ header nav .Navegação {
 .conteudo p {
     margin-left: 20px;
     font-size: .9rem;
-    color: #adacac;
+    color: #d3d3d3;
     font-family: 'roboto';
     font-weight: 300;
 
@@ -90,4 +90,36 @@ header nav .Navegação {
 
 .conteudo img {
     max-width: 70%;
+    padding-left: 5%;
+}
+
+/*menu*/
+main {
+    display: grid;
+    background: linear-gradient(10deg, #701414, #cf2e2e);
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    
+}
+
+main article {
+    padding: 0 20px;
+    display: grid;
+    border: 1px solid #c9c9c94d;
+}
+
+/*nth-child() são pseudos classes*/
+main article:nth-child(1) h2 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'poppins';
+    line-height: 1;
+    align-items: center;
+    padding-top: 20%;
+
+}
+
+/*como não estourar o container com as imgs*/
+main article img {
+    max-width: 100%;
 }
