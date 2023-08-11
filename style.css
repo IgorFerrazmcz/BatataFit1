@@ -146,11 +146,18 @@ main .item .item_efeito {
 /*texto dos itens*/
 main .item h3 {
     color: #ffffff;
-    font-family: 'Roboto';
-    font-weight: 500;
+    font-family: 'Poppins';
+    font-weight: 700;
     font-size: 1.2rem;
     text-align: center;
+}
 
+/*edita o ultimo filho*/
+main .item span:last-child {
+    color: #f7f7f7;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Poppins';
 }
 
 /*como não estourar o container com as imgs*/
