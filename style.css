@@ -116,6 +116,40 @@ main article:nth-child(1) h2 {
     line-height: 1;
     align-items: center;
     padding-top: 20%;
+    position: relative;
+
+}
+main article:nth-child(1) h2::after {
+    content: '';
+    margin-top: 10px;
+    width: 60px;
+    height: 10px;
+    background-color: #d96410;
+    position: absolute;
+    display: block;
+}
+
+main .item {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+main .item .item_efeito {
+    width: 5px;
+    height: 40px;
+    background-color: #d96410;
+    justify-self: center;
+    display: block;
+}
+
+/*texto dos itens*/
+main .item h3 {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
 
 }
 
