@@ -216,5 +216,11 @@ main article img {
     gap: 10px;
     /*ocupar o espaço inteiro*/
     justify-content: space-between;
+}
+
+/*imagens dos produtos*/
+.secao_menu ul li img{
+    width: 13%;
+    border-radius: 50%;
 
 }
