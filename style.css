@@ -222,5 +222,26 @@ main article img {
 .secao_menu ul li img{
     width: 13%;
     border-radius: 50%;
-
+}
+/*nome dos itens*/
+.secao_menu ul li h3{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #ffffff;
+}
+/*parágrafo do menu*/
+.secao_menu ul li p{
+    max-width: 40%;
+    color: #c0baba;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+/*preços*/
+.secao_menu ul li span:last-child{
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Poppins';
+    color: #ffffff;
 }
